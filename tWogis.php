@@ -17,7 +17,7 @@ class tWogis
 
 
     public function getTokens(){
-        //{login: "pr@golodnaya-panda.ru", password: "379679"}
+   
         $r = array("login"=>$this->login,"password"=>$this->pass);
         $url = "https://api.account.2gis.com/api/1.0/users/auth";
         $opts = array('http' =>
